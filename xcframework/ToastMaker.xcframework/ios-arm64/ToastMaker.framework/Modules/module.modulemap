@@ -1,0 +1,11 @@
+framework module ToastMaker {
+  umbrella header "ToastMaker.h"
+
+  export *
+  module * { export * }
+}
+
+module ToastMaker.Swift {
+    header "ToastMaker-Swift.h"
+    requires objc
+}
